@@ -1,0 +1,93 @@
+Home Lab
+
+Download Linux VM
+
+Install VM tools -https://linuxize.com/post/how-to-install-vmware-tools-in-ubuntu-18-04/
+
+* If that doesn’t show up do the following:
+    *   sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+* To then make mounting globally persistent I added the following line to /etc/fstab: 
+    *   .host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other 0 0
+
+- Java -sudo apt install default-jdk
+- Install Zookeeperd
+- - sudo apt-get install zookeeperd
+- Sudo app-get install net-tools
+- Open terminal CTL / ALT T
+
+https://linuxhint.com/install-apache-kafka-ubuntu/
+
+
+
+
+
+
+# Download latest version from https://kafka.apache.org/downloads
+# Unpack latest version
+> tar -xzf <kafka tarball>
+> cd <new kafka directory>
+
+# Start Zookeeper
+> bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# Start Kafka Server
+> bin/kafka-server-start.sh config/server.properties
+
+https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-18-04
+
+Download Atom https://atom.io
+Setup K8s
+Setup Kafka
+Setup Elastic Search
+Joshua’s YAML - https://gist.github.com/joshuarobinson/3ca2c826f6e869d1ce0c26574792f568/revisions
+Install yamllint on Linux yamllint
+
+Python
+
+
+I recommend checking out Analyzing Big Data with Hive, Apache Spark Essential Training, and Data Engineering Essentials.
+
+Install S5command
+
+https://tinkertry.com/superservers
+
+Kubernetes - https://ubuntu.com/kubernetes/install#single-node
+
+To upgrade all
+Sudo apt update
+Sudo apt upgrade
+
+To check system services
+Sudo services —status-all
+Sudo systemctl status ssh
+sudo apt update
+sudo apt install openssh-server
+
+Check firewall status
+
+Sudo ufw status verbose
+Sudo uff enable
+Sudo uff allow ssh
+Sudo apt install open-vm-tools-desktop
+
+FOR LXLE please turn off 3D monitor support
+Potentially boot into grub (SHIFT while booting) and amend challenges there.
+
+
+
+Kafka
+* On ubuntu server
+    * Sudo apt list | grep zookeeper
+    * Sudo apt-get install zookeeper
+    * https://www.edureka.co/community/38840/how-to-install-zookeeper-in-ubuntu
+    *
+
+
+ESXI purchase a vmug advantage annual subscription. EvalExperience - vmug
+
+
+
+TODO
+Add s5cmd
+Kubernetes - rancheros?
+https://www.osboxes.org/vmware-images/
