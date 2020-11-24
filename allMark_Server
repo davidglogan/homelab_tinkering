@@ -1,0 +1,38 @@
+All Mark Markdown Server
+
+https://allmark.io/documentation
+
+For local non - publishable pages.
+
+Build
+
+git clone git@github.com:andreaskoch/allmark.git
+
+error
+
+
+Cloning into 'allmark'...
+Warning: Permanently added the RSA host key for IP address '140.82.112.4' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Turns out I need to generate and add an SSH publickey
+
+See https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/checking-for-existing-ssh-keys
+
+open ~/.ssh/config
+ 95  ssh-keygen -t ed25519 -C "dlogan1970@gmail.com"
+ 96  open ~/.ssh/config
+ 97  ssh-add -K ~/.ssh/id_ed25519
+ 98  man pbcopy
+ 99   pbcopy < ~/.ssh/id_ed25519.pub
+
+
+
+
+
+cd allmark
+make
