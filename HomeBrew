@@ -1,0 +1,12 @@
+HomeBrew
+
+install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Then install ruby
+https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#macos
+
+Using Brew and Ports
+
+http://wiki.juneday.se/mediawiki/index.php/Homebrew_and_Macports

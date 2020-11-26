@@ -30,9 +30,10 @@ open ~/.ssh/config
  98  man pbcopy
  99   pbcopy < ~/.ssh/id_ed25519.pub
 
-
-
-
-
 cd allmark
 make
+
+Go Lang needs to be installed
+
+** appears no development for a couple of years)
+Instructions are incorrect GoLang complains a whole development

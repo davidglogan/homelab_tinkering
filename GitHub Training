@@ -1,3 +1,18 @@
 Git Hub Training
 
 https://lab.github.com/githubtraining/github-pages
+
+
+Install Jeckyll https://jekyllrb.com/docs/installation/
+ruby -v
+git -v
+gem -v
+
+Strange issue no return
+
+gcc -v
+g++ -v
+make -v similar issues
+Started xcode and added something (possibly due to new )
+
+https://lab.github.com/githubtraining/communicating-using-markdown

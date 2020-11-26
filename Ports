@@ -1,0 +1,9 @@
+Ports reinstall
+
+https://trac.macports.org/wiki/Migration
+
+cd  /Users/dlogan/github
+curl --location --remote-name https://github.com/macports/macports-contrib/raw/master/restore_ports/restore_ports.tcl
+chmod +x restore_ports.tcl
+xattr -d com.apple.quarantine restore_ports.tcl
+sudo ./restore_ports.tcl myports.txt

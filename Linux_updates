@@ -1,0 +1,30 @@
+Update Fusion VM Golden Images
+
+dlogan--MacBookPro14:~ dlogan$ cd /Volumes/Samsung\ T5/VM/golden
+dlogan--MacBookPro14:golden dlogan$ ls
+Golden_VM_Ubuntu_64_bit_20.04.Server.vmwarevm
+Golden_VM_Ubuntu_64_bit_20.04.vmwarevm
+LUbuntu_Golden_20_04_01.vmwarevm
+LUbuntu_Golden_20_04_01_20201125.vmwarevm
+LXLE_Golden_18_04.vmwarevm
+LXLE_OSBOXES_18_08_Golden.vmwarevm
+old
+dlogan--MacBookPro14:golden dlogan$ cp -rp LXLE_Golden_18_04.vmwarevm/  LXLE_Golden_18_04_20201125.vmwarevm/
+
+In VMWare open newly copied VM and store in the "Current Golden VM"  folder
+Boot
+
+Open a terminal
+
+CMD ALT T
+
+For Lubuntu
+* open system tools
+* select "Discover"
+* Update
+* Shutdown
+
+For LXLE
+* Control Menu
+* software
+* Check and install updates

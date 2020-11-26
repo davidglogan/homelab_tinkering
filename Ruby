@@ -1,0 +1,79 @@
+ruby
+
+Learn Ruby at https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#macos
+
+
+dlogan--MacBookPro14:~ dlogan$ brew install ruby
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+Updated 28 formulae.
+
+==> Downloading https://homebrew.bintray.com/bottles/libyaml-0.2.5.catalina.bott
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/openssl%401.1-1.1.1h.catali
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/4e5357c0cfd55cfa4ef0b
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/readline-8.0.4.catalina.bot
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/6ae1c8e7c783f32bd22c6
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/ruby-2.7.2.catalina.bottle.
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/c5c8fef5a6068f0657558
+######################################################################## 100.0%
+==> Installing dependencies for ruby: libyaml, openssl@1.1 and readline
+==> Installing ruby dependency: libyaml
+==> Pouring libyaml-0.2.5.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libyaml/0.2.5: 10 files, 323.6KB
+==> Installing ruby dependency: openssl@1.1
+==> Pouring openssl@1.1-1.1.1h.catalina.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.profile
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1h: 8,067 files, 18.5MB
+==> Installing ruby dependency: readline
+==> Pouring readline-8.0.4.catalina.bottle.tar.gz
+==> Caveats
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides BSD libedit.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+==> Summary
+🍺  /usr/local/Cellar/readline/8.0.4: 48 files, 1.5MB
+==> Installing ruby
+==> Pouring ruby-2.7.2.catalina.bottle.tar.gz
+
+==> ruby
+By default, binaries installed by gem will be placed into:
+  /usr/local/lib/ruby/gems/2.7.0/bin
+
+You may want to add this to your PATH.
+
+ruby is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ruby first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.profile
+
+For compilers to find ruby you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"
